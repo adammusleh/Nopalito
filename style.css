@@ -1,0 +1,110 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #0b0b0b; /* Deep dark background */
+  color: #ff3d3d; /* Neon red */
+  line-height: 1.6;
+}
+
+header {
+  background-color: transparent;
+  color: #ff3d3d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ff3d3d;
+  text-shadow: 0 0 10px #ff3d3d;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #ff3d3d;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  text-shadow: 0 0 5px #ff3d3d;
+}
+
+nav a:hover {
+  color: #ff6161;
+  text-shadow: 0 0 15px #ff3d3d;
+}
+
+.hero {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 6rem 2rem;
+  background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: #ff3d3d;
+  text-shadow: 0 0 10px #ff3d3d;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #ff3d3d;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ff3d3d;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  text-shadow: 0 0 8px #ff3d3d;
+}
+
+#about p,
+#menu li,
+#hours p,
+#location p,
+#contact p {
+  color: #ffb3b3;
+}
+
+.menu-items {
+  list-style: square inside;
+  padding-left: 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #1a1a1a;
+  color: #ff3d3d;
+  padding: 1rem;
+  border-top: 1px solid #ff3d3d;
+  text-shadow: 0 0 10px #ff3d3d;
+}
+
+a {
+  color: #ff5e5e;
+}
+
+a:hover {
+  text-decoration: underline;
+}
