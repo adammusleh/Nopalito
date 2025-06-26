@@ -6,24 +6,25 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff8f0;
-  color: #333;
+  font-family: 'Georgia', serif;
+  background-color: #0b0b0b; /* Deep dark background */
+  color: #ff3d3d; /* Neon red */
   line-height: 1.6;
 }
 
 header {
-  background-color: #008000;
-  color: white;
+  background-color: transparent;
+  color: #ff3d3d;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-bottom: 1px solid #ff3d3d;
+  text-shadow: 0 0 10px #ff3d3d;
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -34,22 +35,28 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: #ff3d3d;
   text-decoration: none;
   font-weight: bold;
+  transition: 0.3s;
+  text-shadow: 0 0 5px #ff3d3d;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #ff6161;
+  text-shadow: 0 0 15px #ff3d3d;
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
-  color: white;
+  background-color: #1a1a1a;
   text-align: center;
   padding: 6rem 2rem;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 128, 0, 0.5);
+  background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: #ff3d3d;
+  text-shadow: 0 0 10px #ff3d3d;
 }
 
 .hero h1 {
@@ -64,11 +71,20 @@ section {
 }
 
 h2 {
-  color: #006400;
+  color: #ff3d3d;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #006400;
+  border-bottom: 2px solid #ff3d3d;
   display: inline-block;
   padding-bottom: 0.3rem;
+  text-shadow: 0 0 8px #ff3d3d;
+}
+
+#about p,
+#menu li,
+#hours p,
+#location p,
+#contact p {
+  color: #ffb3b3;
 }
 
 .menu-items {
@@ -78,8 +94,17 @@ h2 {
 
 footer {
   text-align: center;
-  background-color: #008000;
-  color: white;
+  background-color: #1a1a1a;
+  color: #ff3d3d;
   padding: 1rem;
-  margin-top: 2rem;
+  border-top: 1px solid #ff3d3d;
+  text-shadow: 0 0 10px #ff3d3d;
+}
+
+a {
+  color: #ff5e5e;
+}
+
+a:hover {
+  text-decoration: underline;
 }
