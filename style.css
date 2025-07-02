@@ -8,15 +8,15 @@
 /* Fonts */
 body {
   font-family: 'Georgia', serif;
-  background-color: #3d0d0d;
-  color: #f5e5c0;
+  background-color: #490001;
+  color: #945518;
   line-height: 1.6;
 }
 
 /* Header */
 header {
   background-color: transparent;
-  color: #d4af37;
+  color: #a48454;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,7 +55,7 @@ nav a:hover {
 
 /* Hero section */
 .hero {
-  background-color: rgba(61, 13, 13, 0.85);
+  background-color: #490001;
   background-blend-mode: multiply;
   text-align: center;
   padding: 5rem 1rem;
